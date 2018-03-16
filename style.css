@@ -1,24 +1,29 @@
 body {
     background-color: lightgray;
 }
+
 h1, h5 {
     line-height: .1em;
 }
+
 img{
     border: dotted black 1px;
     margin: 5px 5px 5px 5px;
     padding: 2em 2em 2em 2em;
 }
+
 .pad {
     padding-top: 4em;
 }
+
 #fix {
     overflow: hidden;
     background-color: #333;
     color: white;
     position: fixed;
     top: 0;
-    width: 100%;
+    margin: 5px 5px 5px 5px;
+    width: 99%;
 }
 
 .tooltip {
@@ -42,6 +47,7 @@ img{
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
+
 .solit {
     width: 25%;
     height: auto;
@@ -51,6 +57,7 @@ img{
     animation: myfirst 5s linear 2s infinite alternate;
     animation-iteration-count: 3;
 }
+
 @keyframes myfirst {
     0%   {background-color:red; left:0px; top:0px;}
     25%  {background-color:yellow; left:200px; top:0px;}
